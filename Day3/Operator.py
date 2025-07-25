@@ -1,4 +1,4 @@
-'''
+
 #1 Declare age
 age = 20
 age = int(age)
@@ -71,31 +71,7 @@ area = pi * r * r
 c = 2 * pi * r
 
 print("The area is :", area, ",", "Te circumference is :", c)
-'''
+
 
 
 #8 The slope 
-
-a = input("Enter x1 :")   , b = input("y1 :")
-c = input("x2:")    , d = input("y2 :")
-
-a = int(a)  , b = int(b)
-c = int(c)  , d = int(d)
-
-b = 2 * a - 2
-d = 2 * c - 2
-
-slope = d - b / c - a
-
-print("slope =", slope)
-
-'''
-#9 The slope
-
-x1 = 2 , y1 = 2
-x2 = 6 , y2 = 10
-
-m = y2-y1/x2-x1
-
-print(m)
-'''
