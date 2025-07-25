@@ -1,0 +1,108 @@
+Exercice 1
+
+1- 
+
+python --version
+Python 3.13.5
+
+2- 
+
+>>> 3 + 4 #addition(+)
+7
+>>> 3 - 4 #soustraction(-)
+-1
+>>> 3 * 4 #multiplication(*)
+12
+>>> 3%4 #modulo(%)
+3
+>>> 3 / 4 #division(/)
+0.75
+>>> 3**4 #exponentielle
+81
+>>> 3 // 4 #floor division operator
+0
+
+3-
+
+>>> "KOWOU"
+'KOWOU'
+>>> "Kouami Gaston"
+'Kouami Gaston'
+>>> "Togo"
+'Togo'
+>>> "Je profite de 30 Jours de Python"
+'Je profite de 30 Jours de Python'
+
+4-
+
+>>> type(10)
+<class 'int'>
+>>> type(9.9)
+<class 'float'>
+>>> type(3.14)
+<class 'float'>
+>>> type(4-4J)
+<class 'complex'>
+>>> type(['Asabeneh','Python','Finlande'])
+<class 'list'>
+>>> type("KOWOU")
+<class 'str'>
+>>> type("Kouami Gaston")
+<class 'str'>
+>>> type("Togo")
+<class 'str'>
+>>> >>> type(10)
+<class 'int'>
+>>> type(9.9)
+<class 'float'>
+>>> type(3.14)
+<class 'float'>
+>>> type(4-4J)
+<class 'complex'>
+>>> type(['Asabeneh','Python','Finlande'])
+<class 'list'>
+>>> type("KOWOU")
+<class 'str'>
+>>> type("Kouami Gaston")
+<class 'str'>
+>>> type("Togo")
+<class 'str'>
+>>> 
+
+exercice 2
+
+2-
+#addition
+a = 3 + 4
+print(a)
+
+#soustraction
+b = 3 - 4
+print(b)
+
+#multiplication
+c = 3 * 4
+print(c)
+
+#modulo
+d = 3%4
+print(d)
+
+#division
+e = 3 / 4
+print(e)
+
+#exponantielle
+f = 3 ** 4
+print(f)
+
+#floor division operator
+g = 3 // 4
+print(g)
+
+
+3-
+print("KOWOU")
+print("Kouami Gaston")
+print("Togo")
+print("Je profite de 30 jours de Python")
