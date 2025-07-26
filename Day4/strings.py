@@ -114,3 +114,18 @@ txt = ' Coding For All '
 print(txt.strip())
 
 #31
+DAYS = '30DaysOfPython'
+days = 'thirty_day_of_python'
+
+print(DAYS.isidentifier())
+print(days.isidentifier())
+
+#32
+libraries = 'Django','Flask', 'Bottle', 'Pyramid', 'Falcon'
+
+#33
+print('I am enjoying this challenge. \nI am enjoying this challenge.')
+
+#34
+print('Name \ Age \Country \ City')
+print('Asabeneh \ 250 \ Finland \ Helsinki')
