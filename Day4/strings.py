@@ -127,5 +127,5 @@ libraries = 'Django','Flask', 'Bottle', 'Pyramid', 'Falcon'
 print('I am enjoying this challenge. \nI am enjoying this challenge.')
 
 #34
-print('Name \ Age \Country \ City')
-print('Asabeneh \ 250 \ Finland \ Helsinki')
+print('Name \\ Age \\Country \\ City')
+print('Asabeneh \\ 250 \\ Finland \\ Helsinki')
