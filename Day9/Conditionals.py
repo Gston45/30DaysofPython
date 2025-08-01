@@ -67,21 +67,18 @@ elif mounth in Spring:
     print("The season is Spring")
 else:
     print("The season is Summer")
-'''
+
 #3
 fruits = ['banana', 'orange', 'mango', 'lemon']
 print(fruits)
 new_fruit = input("Add a new fruits: ")
-new_fruit = (new_fruit)
-modified_list = fruits.append(new_fruit)
-print(modified_list)
 if new_fruit in fruits:
     print("That fruit already exist in the list")
 else:
-    print(modified_list)
-
+    fruits.append(new_fruit)
+    print(fruits)
+'''
 #Exercices: Level 3
-#1
 person={
 'first_name': 'Asabeneh',
 'last_name': 'Yetayeh',
@@ -96,3 +93,34 @@ person={
 }
 }
 
+#1
+if 'skills' in person:
+    skills = person['skills']
+    middle = len('skills') // 2
+    print('the middle skill in the skills list is :', skills[middle])
+
+#2
+if 'skills' in person:
+    skills = person['skills']
+    pyhton_skills = 'Python' in skills
+    print(pyhton_skills)
+
+#3
+if 'skills' in person:
+    skills = person['skills']
+
+    if 'JavaScript' in skills and 'React' in skills:
+        print('He\is a front end developer')
+    elif 'Python' in skills and 'Node' in skills and 'MongoDB' in skills:
+        print('he\'s a backend developer')
+    elif 'React' in skills and 'Node' in skills and 'MongoDB' in skills:
+        print('He\'s a fullstack developer')
+    else:
+        print('unknown title')
+
+#4
+if 'is_marred' in person and 'country' in person:
+    is_marred = person['is_marred']
+    country = person['country']
+    if is_marred is True and country is 'Finland':
+        print('Asabeneh Yetayeh lives in Finland. He is married.')
