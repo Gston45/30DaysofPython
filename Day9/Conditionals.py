@@ -1,4 +1,4 @@
-'''#Exercices: Level 1
+#Exercices: Level 1
 #1
 age = input("Enter your age:")
 age = int(age)
@@ -77,7 +77,7 @@ if new_fruit in fruits:
 else:
     fruits.append(new_fruit)
     print(fruits)
-'''
+
 #Exercices: Level 3
 person={
 'first_name': 'Asabeneh',
