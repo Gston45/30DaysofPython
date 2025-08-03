@@ -94,5 +94,3 @@ for i in range(0, 101):
     else:
         somme_impaire += i
 print(f"The sum of all evens is {somme_paire}. And the sum of all odds is {somme_impaire}")
-
-#Exercices: Level 3

@@ -62,6 +62,61 @@ def solve_quadratic_eqn(a, b, c):
     else:
         return "n'as pas de solution reelle"
 print(solve_quadratic_eqn(2, 3, 6))
-'''
+
 #8
 def print_list(list):
+    for item in list:
+        print(item)
+print_list(['ama', 'gregoire', 'kodjo'])
+
+
+#9
+def reverse_list(array):
+
+    lst = []
+    for i in range(len(array)-1 , -1, -1):
+        #for i in range (n, m, pas)
+        #range is use to generate index
+        lst = lst + [array[i]]
+    return lst
+print(reverse_list(array = [1, 2, 3, 4, 5]))
+'''
+#10
+def capitalize_list_items(items):
+    liste = []
+    for item in items:
+       # item.capitalize()
+        liste = liste + [item.capitalize()]
+    return liste
+print(capitalize_list_items(items=["Sirup", "Mango", "ira", "12"]))
+
+#11
+
+
+
+
+'''
+#Exercices: Level 2
+#1
+def evens_and_odds(n):
+    even = 0
+    odds = 0
+    for i in range (n + 1):
+        if i % 2 == 0:
+            even += 1
+        else:
+            odds += 1
+    print(f"The number of odds are{odds}")
+    print(f"The number of even are {even}")
+
+print(evens_and_odds(100))
+
+#2
+
+#3
+
+#4
+
+
+#Exercices: Level 3
+'''
