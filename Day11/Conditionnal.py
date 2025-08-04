@@ -1,6 +1,6 @@
 #Exercices: Level 1
 #1
-'''def add_two_numbers(num1, num2):
+def add_two_numbers(num1, num2):
     sum = num1 + num2
     return sum
 print(add_two_numbers(num1 = 1, num2=3))
@@ -80,7 +80,7 @@ def reverse_list(array):
         lst = lst + [array[i]]
     return lst
 print(reverse_list(array = [1, 2, 3, 4, 5]))
-'''
+'
 #10
 def capitalize_list_items(items):
     liste = []
@@ -95,7 +95,7 @@ print(capitalize_list_items(items=["Sirup", "Mango", "ira", "12"]))
 
 
 
-'''
+
 #Exercices: Level 2
 #1
 def evens_and_odds(n):
@@ -119,4 +119,3 @@ print(evens_and_odds(100))
 
 
 #Exercices: Level 3
-'''
