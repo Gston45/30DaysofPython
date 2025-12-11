@@ -28,7 +28,7 @@ print(g)
 
 #Numero 2
 
-print("KOWOU")
-print("Kouami Gaston")
-print("Togo")
+print("nano")
+print("nano")
+print("nano")
 print("Je profite de 30 jours de Python")
